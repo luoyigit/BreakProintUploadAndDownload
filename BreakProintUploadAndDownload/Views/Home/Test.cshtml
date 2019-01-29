@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Test";
+}
+<h1>Test</h1>
+<script>
+    let promise = new Promise(function (resolve, reject) {
+        console.log('Promise');
+        resolve();
+    });
+
+    promise.then(function () {
+        console.log('resolved.');
+    });
+
+    console.log('Hi!');
+</script>
+
+
